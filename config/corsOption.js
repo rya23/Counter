@@ -1,4 +1,4 @@
-const whitelist = ['https://www.google.com', 'http://localhost:3000', 'http://localhost:3000/index.js']
+const whitelist = ['https://counter-beryl-kappa.vercel.app/']
 
 const corsOptions = {
     origin: (origin, callback) => {

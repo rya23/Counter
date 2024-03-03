@@ -1,5 +1,5 @@
 let count = 0
-const url = "http://localhost:3000/add";
+const url = "https://counter-beryl-kappa.vercel.app/add";
 
 let sv;
 
