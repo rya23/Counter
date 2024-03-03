@@ -37,6 +37,20 @@ function save() {
 
 
 
+function clr() {
+    sv = "Previous Entries : ";
+    document.getElementById("saving").innerText = sv
+    const data = { "count": sv };
+    const jsdata = JSON.stringify(data);
+    const options = {
+        method: 'PUT',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: jsdata
+    };
+    fetch(url, options)
+}
 
 
 
