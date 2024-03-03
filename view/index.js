@@ -1,5 +1,5 @@
 let count = 0
-const url = "https://counter-beryl-kappa.vercel.app/add";
+const url = "https://counter-gyel.onrender.com/add";
 
 let sv;
 
